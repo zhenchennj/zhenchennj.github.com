@@ -26,7 +26,7 @@ a:hover{color:#F60;}
 #sousuo h3 { background:url(../img/div-background.jpeg) 0 0 no-repeat; height:45px; margin:10px 0; display:inline-block; width:100%; position:relative; } 
 #sousuo h3 label { color:#fff; position:absolute; left:40px; top:8px; } 
 #sousuo div { display:inline-block; vertical-align:top; width:400px; }
-#sousuo .pic { margin: 10px 0; display:block; width:99%; }
+#sousuo .pic { overflow:hidden; margin: 10px 0; display:block; width:100%; }
 #sousuo .jianjie{ width:560px; margin-right:10px; }
 
 
