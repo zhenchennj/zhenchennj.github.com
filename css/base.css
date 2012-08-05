@@ -1,0 +1,32 @@
+body{ font-family:"宋体"; font-size:12px; color:#666; line-height:25px; margin:0 auto; background:url(../img/body-background.jpeg) 0 -10px repeat-x;}
+ol{list-style:none;}
+#main{width:980px; background:#FFFFFF; margin:0 auto;}
+.main_con{width:900px;padding:0 40px;}
+#layout{width:980px; margin:0 auto;}
+a{color:#666; text-decoration:none; border:none}
+a:hover{color:#F60;}
+#logo{height:80px;}
+#biao{width:328px; float:left; height:80px;}
+#dh{width:652px; float:left;height:50px; margin:10px 0; }
+.en{float:right;height:20px; text-align:right;WIDTH: 600px;padding:5px 36px 0 0}
+#dh ul{height:40px;margin:0;padding:0 0 0 30px;}
+#dh li{width:103px; float:left; display:block; line-height:40px; text-align:center; height:40px; list-style:none; font-weight:bold; background:url(12.jpg);}
+
+#banner{clear:both;height:250px;}
+#hui{height:45px; background:url(images/fittings/13.jpg);}
+#hui td{color:#FFFFFF; font-weight:bold; color:#FFFFFF; font-size:14px}
+#chanpin{height:200px;}
+#sousuo{clear:both; overflow:hidden; }
+#sousuo p { text-indent:2em; margin:0; padding:0; }
+#sousuo ol { padding:0; margin:0; width:10000px;  }
+#sousuo ul { margin:0 30px; padding:0; } 
+#sousuo ul li { list-style:none; }
+#sousuo ol li { display:inline-block; margin:0 5px; width:200px; height:150px; list-style:none; }
+#sousuo h2 { background-color:#0295db; } 
+#sousuo h3 { background:url(../img/div-background.jpeg) 0 0 no-repeat; height:45px; margin:10px 0; display:inline-block; width:100%; position:relative; } 
+#sousuo h3 label { color:#fff; position:absolute; left:40px; top:8px; } 
+#sousuo div { display:inline-block; vertical-align:top; width:400px; }
+#sousuo .pic { margin: 10px 0; display:block; width:99%; }
+#sousuo .jianjie{ width:560px; margin-right:10px; }
+
+
