@@ -9,6 +9,13 @@
 <link href="css/base.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div id="detail" style="display:none;" class="detail">
+        <div id="mainbox">
+            <div id="content" class="content">
+            </div><!--
+            --><a id="close" href="javascript:void(0)"></a>
+        </div>
+    </div>
     <div id="layout">
         <div id="dh">
             <ul>
@@ -22,10 +29,10 @@
             <div class="pic">
                 <h3><label>经营产品</label><span><a href="moreproduct.html">&raquo查看更多产品</a></span></h3>
                 <ol id="pics">
-                   <li><a href=""><img width="200" height="150" src="img/三轮全浮半轴壳.jpg"></a></li> 
-                   <li><a href=""><img width="200" height="150" src="img/三轮前脸.bmp"></a></li> 
-                   <li><a href=""><img width="200" height="150" src="img/箱体.bmp"></a></li> 
-                   <li><a href=""><img width="200" height="150" src="img/转向拉杆.JPG"></a></li> 
+                   <li><a href="javascript:void(0)"><img width="200" height="150" src="img/border.gif" url="img/三轮全浮半轴壳.jpg"></a></li> 
+                   <li><a href="javascript:void(0)"><img width="200" height="150" src="img/border.gif" url="img/三轮前脸.bmp"></a></li> 
+                   <li><a href="javascript:void(0)"><img width="200" height="150" src="img/border.gif" url="img/箱体.bmp"></a></li> 
+                   <li><a href="javascript:void(0)"><img width="200" height="150" src="img/border.gif" url="img/转向拉杆.JPG"></a></li> 
                 </ol>
             </div>
             <div id="jianjie" class="jianjie">
@@ -52,6 +59,10 @@
                 </ul>                
             </div>
        </div>
+        <script src="js/base.js"></script>
+        <script>
+            document.getElementById('detail').style.height = '600px';
+        </script>
 </body>
 </html>
 
