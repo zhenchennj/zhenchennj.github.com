@@ -81,7 +81,7 @@
                 var height = Math.ceil(imgs.length/4) * 160 +100;
                 $('detail').style.height = height + 'px';
                 $('detail').style.height = height + 'px';
-                for (var i = 0; i > imgs.length; i++ ) {
+                for (var i = 0; i < imgs.length; i++ ) {
                     imgs[i].onclick = function() {
                         var src = this.getAttribute('url');
                         var content = $('content');
