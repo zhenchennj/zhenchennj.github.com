@@ -110,6 +110,10 @@
                          img.style.height = '400';
                         content.appendChild(img);            
                    }
+                   imgs[i].onload=function() {
+                       imgs[i].width='200';
+                       imgs[i].height='150';
+                   }
                    imgs[i].src = imgs[i].getAttribute('url');
                    imgs[i].width='15';
                    imgs[i].height='15';
