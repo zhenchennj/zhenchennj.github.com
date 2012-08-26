@@ -99,13 +99,15 @@
                                 w *= 0.9;
                                 h *= 0.9;
                              }
+                             img.style.width = w;
+                             img.style.height = h;
                              img.width = w;
                              img.height = h;
                             content.style.width = 'auto';
                             content.style.height = 'auto';
                         }
-                         img.width = '600';
-                         img.height = '400';
+                         img.style.width = '600';
+                         img.style.height = '400';
                         content.appendChild(img);            
                    }
                    imgs[i].onload=function() {

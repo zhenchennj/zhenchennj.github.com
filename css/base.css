@@ -27,7 +27,6 @@ a:hover { color:#F60; }
 #sousuo ul li { list-style:none; }
 #more  { position:relative; }
 #more #sousuo h3 { margin-bottom:0; }
-#more #sousuo ol { text-align:left; }
 #detail {  z-index:2; position:absolute; left:0; top:1; width:100%; height:2000px; padding-top:50px; background-color:rgba(0,0,0,0.8) }
 .content { margin:0px auto; background:#fff; width:600px; height:400x; display:inline-block; *display:inline; zoom:1; text-align:center; padding:20px;  }
 #mainbox { text-align:center; width:100%; position:absolute; left:0; top:100px;  }
