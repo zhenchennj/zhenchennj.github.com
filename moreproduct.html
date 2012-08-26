@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>振臣农机配件经销处</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta content="振臣农机配件" name="keywords" />
@@ -91,23 +90,20 @@
                         detail.style.display = 'block';
                         content.innerHTML = '';
                         var img = document.createElement('img');
-                        img.setAttribute('src', src);
-                        img.onload =  function() {
+                        img.onload = function() {
+                            var img = this;
                             var w = img.width;
                             var h =  img.height;
-                             while( w >800 || h > 500 ) {
+                            while( w >800 || h > 500 ) {
                                 w *= 0.9;
                                 h *= 0.9;
-                             }
-                             img.style.width = w;
-                             img.style.height = h;
-                             img.width = w;
-                             img.height = h;
+                            }
+                            img.width = w;
+                            img.height = h;
                             content.style.width = 'auto';
                             content.style.height = 'auto';
                         }
-                         img.style.width = '600';
-                         img.style.height = '400';
+                        img.setAttribute('src', src);
                         content.appendChild(img);            
                    }
                    imgs[i].onload = function() {
